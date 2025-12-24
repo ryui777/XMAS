@@ -1,0 +1,31 @@
+/* Responsive Design */
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    .tree-base {
+        width: 80%; /* Make tree larger relative to viewport on smaller screens */
+    }
+
+    .card {
+        width: 80px; /* Smaller card */
+        height: 50px;
+        font-size: 0.9em;
+        top: 35%; /* Adjust position for smaller tree */
+    }
+
+    .letter-content {
+        width: 90%; /* Take up more width on small screens */
+        margin: 10% auto; /* Adjust margin */
+        padding: 20px;
+    }
+
+    .letter-content h2 {
+        font-size: 1.5em;
+    }
+
+    .letter-content p {
+        font-size: 1em;
+    }
+}
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Letter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&family=Cousine&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    <header class="lights">
+        <ul></ul>
+    </header>
+    <main class="scene">
+            <div class="tree-container">
+                <img src="assets/images/christmas-tree.png" alt="Christmas Tree" class="tree-base">
+                <div class="card" id="letterCard">
+                    <p>Open Me!</p>
+                </div>
+            </div>
+
+            <div class="letter-modal" id="letterModal">
+                <div class="letter-content">
+                    <span class="close-button" id="closeLetter">&times;</span>
+                    <h2>To My Special One,</h2>
+                    <p>Hello, My Dearest Daniella. Merry Christmas! Sobrang dameng nangyare ngayong taon, may last clutch cramming pang nangyare but thank god we survived. I hope this special day will be special for my special person too. Thank you for surviving each day when u feel tired, overwhelmed and unsure sa kung ano man ang nangyayare sa paligid ligid but one thing is you still keep going and im so proud of u for that. And always remember that u have me omkayy and run to me when the world gets mean to you i'll always be your kakampi hehe yun langg I hope mag enjoyy kaa this vacation ^^</p>
+                    <p class="signature">Your number 1 Supporter,<br>Colorpal</p>
+                </div>
+            </div>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+
+    <!-- Background Music (Hidden) -->
+    <!-- IMPORTANT: Replace 'assets/audio/all-i-want-for-christmas-is-you.mp3' with the actual path to your desired music file. -->
+    <!-- Due to copyright, you must provide your own legally obtained audio file. -->
+    <!-- Note: Modern browsers often block autoplay with sound without user interaction. Users might need to click somewhere on the page to start the music. -->
+    <audio id="background-music" loop autoplay muted>
+        <source src="assets/images/all-i-want-for-xmas-is-you.mp3" type="audio/mpeg">
+    </audio>
+
+    <button id="unmuteMusicButton" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; background-color: #f44336; color: white; border: none; border-radius: 5px; cursor: pointer; z-index: 1000;">Unmute Music</button>
+</body>
+</html>
